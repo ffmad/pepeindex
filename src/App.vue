@@ -4,7 +4,7 @@
       <div class="header-left">
         <div class="title-container">
           <img src="/pepeusd-logo.png" alt="PepeUSD" class="title-logo" />
-          <a href="https://pepeusd.lol/" target="_blank" rel="noopener noreferrer" class="title-link">
+          <a href="/" class="title-link">
             <h1 class="title">PepeUSD Index Ladder</h1>
           </a>
         </div>
@@ -1190,6 +1190,8 @@ export default {
   .app {
     border-radius: 0;
     height: 100vh;
+    width: 100vw !important;
+    min-width: unset !important;
   }
   
   .header {
@@ -1198,12 +1200,20 @@ export default {
     gap: 16px;
   }
   
+  .header-left {
+    flex: 0 0 50% !important;
+  }
+
+  .header-right {
+    flex: 0 0 50% !important;
+  }
+  
   .price-value {
-    font-size: 20px;
+    font-size: 18px;
   }
   
   .market-metrics {
-    gap: 16px;
+    gap: 12px;
   }
   
   .external-links {
@@ -1224,7 +1234,7 @@ export default {
   }
   
   .title {
-    font-size: 24px;
+    font-size: 18px;
   }
   
   .title-logo {

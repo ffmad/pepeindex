@@ -5,6 +5,12 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     port: 5174,
-    host: true
+    host: true,
+    allowedHosts: [
+      'pepeusdindex.lol',
+      'www.pepeusdindex.lol',
+      'localhost',
+      '127.0.0.1'
+    ]
   }
 }) 
