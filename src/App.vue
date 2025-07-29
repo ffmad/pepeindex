@@ -21,6 +21,10 @@
             <Icon icon="uil:chart" class="link-icon" />
             <span>DexScreener</span>
           </a>
+          <a href="https://t.me/stablepepeusd" target="_blank" rel="noopener noreferrer" class="external-link">
+            <Icon icon="simple-icons:telegram" class="link-icon" />
+            <span>Telegram</span>
+          </a>
         </div>
       </div>
       <div class="header-right">
